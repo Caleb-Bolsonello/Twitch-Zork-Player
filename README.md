@@ -6,7 +6,7 @@
 
   Next run a terminal. If you’re using “cool-retro-term”, open it. Launch Frotz and load in your Zork.DAT file. Open a second terminal and navigate to the “./Twitch-Zork-Player/Python/PyTyper/” folder. You can run the python script by running the following command: “./typer.py”.
 
-  Next the Node.JS script must be run in order for the twitch bot to connect to the Twitch chat. In order for you to connect your bot to the correct chat, create a twitch account for the bot. Next go to the following file and edit it: “./Node/Twitch Bot.options.js”. Set the “pass” variable to your twitch oauth code which can be obtained from here: https://twitchapps.com/tmi/ (Note: make sure to leave the ‘oaith:’ in front of the Oauth token). Next, find the “username” variable and enter the bot’s username. Finally, enter the name of the channel the bot should join in the “channels” array. 
+  Next the Node.JS script must be run in order for the twitch bot to connect to the Twitch chat. In order for you to connect your bot to the correct chat, create a twitch account for the bot. Next go to the following file and edit it: “./Node/Twitch Bot.options.js”. Set the “pass” variable to your twitch oauth code which can be obtained from here: https://twitchapps.com/tmi/ (Note: make sure to leave the ‘oauth:’ in front of the Oauth token). Next, find the “username” variable and enter the bot’s username. Finally, enter the name of the channel the bot should join in the “channels” array. 
 
   Now the Node.JS bot can be run. Navigate to the “./Node/Twitch Bot/” folder in a new terminal and run: ‘node.’. If the bot joins, you can now enter in a message to the terminal by typing a message with the ‘>’ character in front of it (Example: ‘>Go West’). 
 
