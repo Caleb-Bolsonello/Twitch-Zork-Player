@@ -8,7 +8,7 @@
 
   Next the Node.JS script must be run in order for the twitch bot to connect to the Twitch chat. In order for you to connect your bot to the correct chat, create a twitch account for the bot. Next go to the following file and edit it: “./Node/Twitch Bot.options.js”. Set the “pass” variable to your twitch oauth code which can be obtained from here: https://twitchapps.com/tmi/ (Note: make sure to leave the ‘oauth:’ in front of the Oauth token). Next, find the “username” variable and enter the bot’s username. Finally, enter the name of the channel the bot should join in the “channels” array. 
 
-  Now the Node.JS bot can be run. Navigate to the “./Node/Twitch Bot/” folder in a new terminal and run: ‘node.’. If the bot joins, you can now enter in a message to the terminal by typing a message with the ‘>’ character in front of it (Example: ‘>Go West’). 
+  Now the Node.JS bot can be run. Navigate to the “./Node/Twitch Bot/” folder in a new terminal and run: ‘node.’. If the bot joins, you can now enter in a message to the terminal through Twitch chat by typing a message with the ‘>’ character in front of it in the twitch chat (Example: ‘>Go West’). 
 
 NOTE: You must select the terminal that is running Zork after running all of the above commands. Failing to do this means the bot will be typing input into whatever other window is selected.  This is a quick and dirty solution to entering the user input in. In the future hopefully piping the data directly into the terminal would be a better solution. 
 
